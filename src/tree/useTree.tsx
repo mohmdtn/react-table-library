@@ -50,7 +50,7 @@ const getRowProps = <T extends TableNode>(
     }
 
     .td:nth-of-type(${treeYLevel + 1}) > div {
-      padding-left: ${treeXLevel * tree.options.indentation}px;
+      padding-right: ${treeXLevel * tree.options.indentation}px;
     }
   `;
 
